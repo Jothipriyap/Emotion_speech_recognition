@@ -1,5 +1,6 @@
 import streamlit as st
-import sounddevice as sd
+import io
+import librosa
 import numpy as np
 import librosa
 from tensorflow.keras.models import load_model
